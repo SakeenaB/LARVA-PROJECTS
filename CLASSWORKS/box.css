@@ -1,0 +1,30 @@
+/* section {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+} */
+
+section {
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    /* align-items: center;
+    justify-content: space-evenly; */
+    grid-template-columns: repeat(3, 1fr);
+}
+div {
+    border: inherit;
+    /* width: 150px;
+    height: 150px; */
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
